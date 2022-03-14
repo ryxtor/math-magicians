@@ -19,10 +19,10 @@ To get a local copy up and running follow these simple example steps.
 - Change the directory you want put the repo
 - Then run
   
-   1. Run 'git clone git@github.com:ryxtor/math-magicians.git'
-   2. Go to the project folder 'cd math-magicians/'
-   3. Install npm dependencies 'npm install'
-   4. Start the webpage on development mode 'npm start'
+   1. Run `git clone git@github.com:ryxtor/math-magicians.git`
+   2. Go to the project folder `cd math-magicians/`
+   3. Install npm dependencies `npm install`
+   4. Start the webpage on development mode `npm start`
 ## Built With
 
 - HTML
