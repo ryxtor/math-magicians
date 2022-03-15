@@ -1,0 +1,33 @@
+.calculator-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.25rem;
+  margin: 10%;
+}
+
+.calculator-container .orange-color {
+  background-color: #f95;
+}
+
+.result {
+  grid-column: 4 span;
+  background-color: #666;
+  color: white;
+  padding: 1rem;
+  text-align: right;
+  font-size: 1.5rem;
+}
+
+.btn {
+  display: grid;
+  place-content: center;
+  padding: 1rem;
+  background-color: #ddd;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.btn-0 {
+  grid-column: 2 span;
+}
