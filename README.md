@@ -33,7 +33,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Live Demo
 
-There is not live demo yet.
+[Live Demo Link](https://ryxtor.github.io/math-magicians/)
 ## Author
 
 👤 **Lucas Bonnefon**
