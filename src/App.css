@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 0.25rem;
-  margin: 10%;
+  margin: 8%;
 }
 
 .calculator-container .orange-color {
@@ -10,6 +10,7 @@
 }
 
 .result {
+  width: 300px;
   grid-column: 4 span;
   background-color: #666;
   color: white;
@@ -17,6 +18,7 @@
   text-align: right;
   font-size: 1.5rem;
   font-family: sans-serif;
+  overflow-y: auto;
 }
 
 .btn {
@@ -32,4 +34,91 @@
 
 .btn-0 {
   grid-column: 2 span;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f95;
+  box-shadow: 2px 1px 5px #000;
+  align-items: center;
+}
+
+.header-title {
+  margin: 0;
+  padding: 1rem;
+}
+
+.link {
+  text-decoration: none;
+  color: #000;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.navbar {
+  display: flex;
+}
+
+body {
+  background-color: #bbb;
+  font-family: sans-serif;
+}
+
+.calculator-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.home-title {
+  margin-left: 1rem;
+}
+
+.home-text {
+  margin: 1rem;
+}
+
+.quote {
+  margin: 10%;
+}
+
+@media screen and (max-width: 778px) {
+  .header-title {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+
+  .link {
+    font-size: 0.75rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+  }
+
+  .calculator-section {
+    flex-direction: column;
+  }
+
+  .calculator-title,
+  .calculator-container {
+    align-self: center;
+  }
+
+  .result {
+    width: auto;
+    font-size: 1rem;
+  }
+
+  .btn {
+    font-size: 1rem;
+  }
+
+  .home-title {
+    font-size: 1rem;
+  }
+
+  .home-text,
+  .quote {
+    font-size: 0.5rem;
+  }
 }
