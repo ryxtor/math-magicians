@@ -70,3 +70,15 @@ body {
   justify-content: space-around;
   align-items: baseline;
 }
+
+.home-title {
+  margin-left: 1rem;
+}
+
+.home-text {
+  margin: 1rem;
+}
+
+.quote {
+  margin: 10%;
+}
