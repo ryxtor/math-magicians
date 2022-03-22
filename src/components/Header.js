@@ -4,9 +4,9 @@ const Header = () => (
   <header>
     <h1 className="header-title">Math Magicians</h1>
     <nav className="navbar">
-      <Link to="/" className="link">Home</Link>
-      <Link to="calculator" className="link">Calculator</Link>
-      <Link to="quote" className="link">Quote</Link>
+      <Link to="math-magicians/" className="link">Home</Link>
+      <Link to="math-magicians/calculator" className="link">Calculator</Link>
+      <Link to="math-magicians/quote" className="link">Quote</Link>
     </nav>
   </header>
 );
