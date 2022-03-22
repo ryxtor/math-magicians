@@ -82,3 +82,43 @@ body {
 .quote {
   margin: 10%;
 }
+
+@media screen and (max-width: 778px) {
+  .header-title {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+
+  .link {
+    font-size: 0.75rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+  }
+
+  .calculator-section {
+    flex-direction: column;
+  }
+
+  .calculator-title,
+  .calculator-container {
+    align-self: center;
+  }
+
+  .result {
+    width: auto;
+    font-size: 1rem;
+  }
+
+  .btn {
+    font-size: 1rem;
+  }
+
+  .home-title {
+    font-size: 1rem;
+  }
+
+  .home-text,
+  .quote {
+    font-size: 0.5rem;
+  }
+}
