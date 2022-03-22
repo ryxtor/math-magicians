@@ -1,2 +1,0 @@
-body{margin:0}.calculator-container{grid-gap:.25rem;display:grid;gap:.25rem;grid-template-columns:repeat(4,1fr);margin:10%}.calculator-container .orange-color{background-color:#f95}.result{background-color:#666;color:#fff;grid-column:span 4;text-align:right}.btn,.result{font-family:sans-serif;font-size:1.5rem;padding:1rem}.btn{background-color:#ddd;cursor:pointer;display:grid;font-weight:700;place-content:center}.btn-0{grid-column:span 2}
-/*# sourceMappingURL=main.46f41bd7.css.map*/
