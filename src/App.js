@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Outlet } from 'react-router-dom';
 import './App.css';
 import Calculator from './components/Calculator';
 import Home from './components/Home';
@@ -14,9 +14,11 @@ export default class App extends React.Component {
   render() {
     return (
       <Routes>
-        <Route path="math-magicians/" element={<Home />} />
-        <Route path="math-magicians/calculator" element={<Calculator />} />
-        <Route path="math-magicians/quote" element={<Quote />} />
+        <Route path="/" element={<Outlet />}>
+          <Route index element={<Home />} />
+          <Route path="calculator" element={<Calculator />} />
+          <Route path="quote" element={<Quote />} />
+        </Route>
       </Routes>
     );
   }
