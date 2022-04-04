@@ -2,6 +2,8 @@
 
 >  In this project I'm making a Single Page App (SPA) to make simple calculations and read a random math-related quote.
 
+![screenshot](src/image/screenshot.png)
+
 ## Getting Started
 
 Clone the repository and install the dependencies
